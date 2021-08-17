@@ -32,7 +32,7 @@ def main():
         browser.refresh()
         time.sleep(1)
 
-    login(browser,userpass.giris(),userpass.sifre())
+    login(browser,username,password)
 
     time.sleep(1)
 
